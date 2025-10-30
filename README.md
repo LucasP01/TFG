@@ -22,6 +22,31 @@ No es necesario ejecutar SQL ni instalar entornos adicionales — todo el proces
 - **Power BI Desktop** instalado en tu computadora.  
 - Conexión a internet.  
 
+### 🧰 Instalación local (opcional: ejecutar el notebook en tu PC)
+
+Si preferís ejecutar `TFG_Lucas_Paleo.ipynb` localmente en lugar de usar Colab, podés crear un entorno virtual y instalar las dependencias del proyecto con el archivo `requirements.txt` incluido en este repositorio.
+
+Pasos (Windows - PowerShell):
+
+```powershell
+# 1. Crear y activar un entorno virtual
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+# 2. Actualizar pip e instalar dependencias
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
+# 3. Iniciar Jupyter Notebook y abrir el archivo
+jupyter notebook TFG_Lucas_Paleo.ipynb
+```
+
+Notas:
+- El archivo `requirements.txt` contiene las librerías utilizadas en el notebook (pandas, numpy, seaborn, plotly, SQLAlchemy, PyMySQL, jupyter, entre otras).
+- Si sólo querés ejecutar el notebook en Google Colab no es necesario realizar estos pasos.
+- Para ejecutar pruebas o validar notebooks localmente se incluyen `pytest` y `nbval` (opcional).
+- Si vas a conectar con una base MySQL local asegurate de tener el servidor instalado y ajustar las credenciales en el notebook.
+
 ---
 
 ## 🧩 Archivos del proyecto

@@ -1,0 +1,13 @@
+pandas>=1.5
+numpy>=1.24
+matplotlib>=3.5
+seaborn>=0.12
+plotly>=5.0
+jupyter>=1.0
+notebook>=6.5
+ipython>=8.0
+SQLAlchemy>=1.4
+PyMySQL>=1.0.2
+nbval>=0.9
+pytest>=7.0
+great_expectations>=0.15

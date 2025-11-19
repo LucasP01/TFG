@@ -27,11 +27,14 @@ El objetivo es transformar los datos crudos en un archivo **CSV limpio y listo p
 
 ### 📊 Indicadores principales
 
-- ✅ Tasa de cancelación de viajes
-- 🚗 Porcentaje de viajes completados
-- ⏱️ Tiempo promedio de viaje
-- 💵 Ingreso promedio por viaje
-- 🌟 Calificación promedio (clientes y conductores)
+- 📈 Total de viajes
+- ✅ Viajes completados
+- ❌ Viajes incompletos / Viajes no completados
+- 💵 Ganancia total 
+- 💸 Ganancia perdida por viajes no completados
+- � Valor promedio por viaje 
+- 📉 Tasa de cancelación 
+- 🌟 Calificación promedio de conductores 
 
 ---
 

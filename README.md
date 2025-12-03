@@ -177,7 +177,7 @@ jupyter notebook TFG_Lucas_Paleo.ipynb
 Si encuentras problemas:
 1. Revisa la sección de Troubleshooting
 2. Abre un issue en GitHub
-3. Contacta: [tucorreo@email.com]
+3. Contacto: [lucas01andres@gmail.com]
 
 ## 🤝 Contribuir
 
